@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="19.5mm" height="17mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1950 1700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 77.249 64">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#114278;stroke-width:58.77;stroke-miterlimit:22.9256}
+    .str0 {stroke:#114278;stroke-width:59.06;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_922177664">
+   <path class="fil0 str0" d="M387.16 441.63c141.63,-246.51 407.59,-412.59 712.31,-412.59 453.42,0 821,367.56 821,821 0,453.39 -367.61,820.92 -821,820.92 -324.54,0 -605.08,-188.25 -738.35,-461.65"/>
+  </g>
+  <g id="Group">
+   <g id="Shape">
+    <polyline class="fil0 str1" points="407.59,755.82 471.55,598.41 452.41,538.52 397.07,568.12 373.36,637.97 "/>
+    <polyline class="fil0 str1" points="434.94,823.2 590.72,755.3 618.9,699.02 558.57,681.61 492.85,714.97 "/>
+    <polyline class="fil0 str1" points="413.86,889.12 571.11,953.39 631.06,934.38 601.59,878.98 531.78,855.16 "/>
+    <polyline class="fil0 str1" points="344.7,920.43 408.55,1077.92 464.02,1107.53 483.06,1047.7 451.38,981.11 "/>
+    <polyline class="fil0 str1" points="271.16,896.84 200.35,1051.32 216.87,1111.99 273.48,1084.79 300.21,1016.11 "/>
+    <polyline class="fil0 str1" points="246.12,823.2 90.65,891.61 62.64,947.97 122.96,965.23 188.61,931.65 "/>
+    <polyline class="fil0 str1" points="269.16,754.19 108.12,700.1 49.52,722.93 82.47,776.32 153.64,795.71 "/>
+    <polyline class="fil0 str1" points="338.45,726.01 267.12,571.77 210.23,544.83 194.11,605.51 228.89,670.54 "/>
+   </g>
+   <path id="Shape_0" class="fil0 str1" d="M375.33 826.37c0,16.96 -13.74,30.73 -30.67,30.73 -17.02,0 -30.73,-13.77 -30.73,-30.73 0,-16.93 13.71,-30.71 30.73,-30.71 16.95,0 30.67,13.78 30.67,30.71l0 0z"/>
+  </g>
+ </g>
+</svg>

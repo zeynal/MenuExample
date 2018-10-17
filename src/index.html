@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hökumət Ödəniş Portalı</title>
+    <base href="/">
+    <link rel="icon" sizes="any" type="image/svg+xml" href="assets/img/favicon.svg">
+    <link rel="alternate icon" type="image/png" href="assets/img/favicon.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/pickmeup.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/dropdown.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+    <link  type="text/css"rel="stylesheet" href="assets/css/font/stylesheet.css">    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body itemscope="" itemtype="http://schema.org/WebPage" class="index" style="background-position: 0px -74.5px;">
+    <app-root></app-root>
+    <script type="text/javascript" src="assets/js/jquery-latest.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="assets/js/pickmeup.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.easy-autocomplete.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.dropdown.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/common.js"></script>
+    <script type="text/javascript" src="assets/js/tooltip.min.js"></script>
+    <script type="text/javascript" src="assets/js/transition.js"></script>
+    <script type="text/javascript" src="assets/js/select-filter.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script>
+         $(".alertHello").click(function(){
+            alert('hello');
+          });
+          $("#signIn").click(function(){
+            $("body").addClass("overflow");
+            var window_height = _window.height();
+            $(".darkness").animate({"opacity": "show"}, 450);
+            $(".login_modal").animate({"top": "50%"}, 450);
+            if (window_height < 500) {
+              $(".login_modal").css("height", (window_height-70)+"px").css("margin-top", -((window_height-70)/2)+"px");
+            }
+            return false;
+          });
+    </script>
+    <script>
+        $(document).ready(function(){
+          $(".alertHello").click(function(){
+            alert('hello');
+          });
+          $("#signIn").click(function(){
+            var window_height = _window.height();
+            $(".darkness").animate({"opacity": "show"}, 450);
+            $(".login_modal").animate({"top": "50%"}, 450);
+            if (window_height < 500) {
+              $(".login_modal").css("height", (window_height-70)+"px").css("margin-top", -((window_height-70)/2)+"px");
+            }
+            return false;
+          });
+        });
+
+       </script>
+  </body>
+</html>

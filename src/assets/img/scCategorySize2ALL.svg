@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="19mm" height="17mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1900 1700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 77.249 64">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="." horiz-adv-x="277" d="M90.9943 0l0 99.9915 100.009 0 0 -99.9915 -100.009 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:#114278;stroke-width:59.06;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:#114278}
+    .fnt0 {font-weight:normal;font-size:586.85px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_919849440">
+   <g>
+    <path class="fil0 str0" d="M327.64 441.63c141.63,-246.51 407.59,-412.59 712.31,-412.59 453.42,0 821,367.56 821,821 0,453.39 -367.61,820.92 -821,820.92 -324.54,0 -605.08,-188.25 -738.35,-461.65"/>
+   </g>
+   <g>
+    <line class="fil0 str0" x1="41.47" y1="631.22" x2="551.31" y2= "631.22" />
+    <polyline class="fil0 str0" points="39.05,774.35 290.34,883.83 548.89,774.35 "/>
+    <polyline class="fil0 str0" points="39.8,914.01 290.57,1033.09 549.57,914.01 "/>
+   </g>
+   <g>
+    <g>
+     <text x="753.5" y="855.18"  class="fil1 fnt0">....</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

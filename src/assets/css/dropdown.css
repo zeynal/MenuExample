@@ -1,0 +1,488 @@
+/*!
+ *
+ *	jQuery Dropdown
+ *
+ *	http://danewilliams.uk/projects/jquery-dropdown
+ *	https://github.com/daneWilliams/jquery.dropdown
+ *
+ *	================================================================
+ *
+ *	@version		1.6.0
+ *
+ *	@author			Dane Williams <dane@danewilliams.uk>
+ *	@copyright		2014-2015 Dane Williams
+ *	@license		MIT License
+ *
+ */
+.infotableSelect {
+  width: 260px;
+  margin-right: 30px;
+}
+
+.infotableSelect .dropdown {
+  width: 100%;
+}
+/**
+ *	=General
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown {
+  font-size: 14px;
+  line-height: 1.5;
+}
+/**
+ *	=Positioning
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown,
+.infotableSelect .dropdown-menu-container,
+.infotableSelect .dropdown-header,
+.infotableSelect .dropdown-list,
+.infotableSelect .dropdown-toggle,
+.infotableSelect .dropdown-title {
+  position: relative;
+}
+.infotableSelect .dropdown-menu-wrapper,
+.infotableSelect .dropdown-mask,
+.infotableSelect .dropdown-menu,
+.infotableSelect .dropdown-close,
+.infotableSelect .dropdown-back {
+  position: absolute;
+}
+.infotableSelect .dropdown-menu-open {
+  position: relative;
+}
+.infotableSelect .dropdown-overlay {
+  position: fixed;
+}
+.infotableSelect .dropdown {
+  z-index: 1;
+}
+.infotableSelect .dropdown.dropdown-open {
+  z-index: 50000;
+}
+.infotableSelect .dropdown.dropdown-opening {
+  z-index: 1003;
+}
+.infotableSelect .dropdown.dropdown-closing {
+  z-index: 1001;
+}
+.infotableSelect .dropdown-mask {
+  z-index: 1;
+}
+.infotableSelect .dropdown-menu-wrapper {
+  z-index: 40000;
+  min-width: 260px;
+}
+.infotableSelect .dropdown-overlay,
+.infotableSelect .dropdown-back,
+.infotableSelect .dropdown-close {
+  z-index: 2;
+}
+.infotableSelect .dropdown-toggle,
+.infotableSelect .dropdown-title {
+  z-index: 1;
+}
+.infotableSelect .dropdown-overlay,
+.infotableSelect .dropdown-mask {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.infotableSelect .dropdown-menu-container,
+.infotableSelect .dropdown-child,
+.infotableSelect .dropdown-parent {
+  width: 100%;
+}
+.infotableSelect .dropdown-menu-wrapper {
+  left: 0;
+  min-width: 260px;
+  z-index: 40000;
+}
+.infotableSelect .dropdown-below .dropdown-menu-wrapper {
+  top: 100%;
+  bottom: auto;
+  margin: 13px 0 0;
+}
+.infotableSelect .dropdown-above .dropdown-menu-wrapper {
+  top: auto;
+  bottom: 100%;
+  margin: 0 0 15px;
+}
+.infotableSelect .dropdown-menu {
+  top: 0;
+  left: 0;
+  width: inherit;
+}
+/**
+ *	=Display
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown,
+.infotableSelect .dropdown-toggle {
+  display: inline-block;
+  max-width: 100%;
+}
+.infotableSelect .dropdown-menu-wrapper,
+.infotableSelect .dropdown-menu,
+.infotableSelect .dropdown-header,
+.infotableSelect .dropdown-mask,
+.infotableSelect .dropdown-overlay,
+.infotableSelect .dropdown-title,
+.infotableSelect .dropdown-close,
+.infotableSelect .dropdown-back {
+  display: none;
+}
+.infotableSelect .dropdown-open .dropdown-menu-wrapper,
+.infotableSelect .dropdown-animating .dropdown-mask,
+.infotableSelect .dropdown-menu-open,
+.infotableSelect .dropdown-main-menu,
+.infotableSelect .dropdown-child .dropdown-header,
+.infotableSelect .dropdown-child .dropdown-title,
+.infotableSelect .dropdown-child .dropdown-back {
+  display: block;
+}
+/**
+ *	=Animation
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-overlay,
+.infotableSelect .dropdown-menu-wrapper,
+.infotableSelect .dropdown-menu-container,
+.infotableSelect .dropdown-menu {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+.infotableSelect .dropdown-open .dropdown-menu-wrapper {
+  opacity: 1;
+}
+
+.infotableSelect .dropdown-below.dropdown-open:after {
+  border-color: transparent transparent #d6dde6;
+  border-style: solid;
+  border-width: 0 8px 12px;
+  bottom: -16px;
+  content: "";
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  position: absolute;
+  width: 0;
+  z-index: 4000;
+}
+
+.infotableSelect .dropdown-above.dropdown-open:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 8px 0 8px;
+  border-color: #d6dde6 transparent transparent transparent;
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  margin-left: -4px;
+}
+
+/**
+ *
+ *	Icon styles
+ *
+ *	================================================================
+ *
+ *	@since			1.4.0
+ *
+ */
+/**
+ *	=General
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-icon {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 14px;
+  line-height: inherit;
+  font-size: 14px;
+}
+/**
+ *	=Toggle
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-icon-toggle {
+
+}
+.infotableSelect .dropdown-icon-toggle:before {
+  position: relative;
+}
+/**
+ *	=Back
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-icon-back:before {
+  content: '\2190';
+}
+/**
+ *	=Close
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-icon-close:before {
+  content: '\00d7';
+}
+/**
+ *	=Previous
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-icon-prev:before {
+  content: '\2190';
+}
+/**
+ *	=Next
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-icon-next:before {
+  content: '\2192';
+}
+
+.infotableSelect .dropdown-link:hover .selectNext {
+  background: url(../img/selectNext_hover.png) no-repeat 0 0;
+}
+
+.selectNext {
+  background: url(../img/selectNext.png) no-repeat 0 0;
+  height: 9px;
+  width: 13px;
+  margin-top: 3px;
+}
+
+.selectBack {
+  background: url(../img/selectBack.png) no-repeat 0 0;
+  height: 9px;
+  width: 13px;
+  margin-top: 3px;
+}
+
+/**
+ *
+ *	Toggle styles
+ *
+ *	================================================================
+ *
+ *	@since			1.4.0
+ *
+ */
+/**
+ *	=General
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-toggle {
+  background: #ffffff;
+  color: #333333;
+  text-decoration: none;
+  padding: 5px 40px 5px 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font: 12px/15px "LatoWeb";
+  height: 44px;
+  border:1px solid #D6DDE6;
+  width: 100%;
+}
+.infotableSelect .dropdown-toggle:hover {
+  background: #ffffff;
+  color: #262626;
+  text-decoration: none;
+}
+.infotableSelect .dropdown-toggle .dropdown-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 42px;
+  width:42px;
+  background: #fff url("../img/styled-select-bg.png") no-repeat scroll right center;
+}
+.infotableSelect .dropdown-toggle .dropdown-text {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 32px;
+  line-height: 32px;
+}
+.infotableSelect .dropdown-open .dropdown-toggle {
+  background: #ffffff;
+  color: #262626;
+}
+/**
+ *
+ *	Menu styles
+ *
+ *	================================================================
+ *
+ *	@since			1.4.0
+ *
+ */
+/**
+ *	=Wrapper
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-menu-wrapper {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  overflow: hidden;
+  opacity: 0;
+  min-width: 260px;
+  z-index: 40000;
+}
+/**
+ *	=Lists
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-list,
+.infotableSelect .dropdown-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.infotableSelect .dropdown-list {
+  max-height: 200px !important; /* ZZ */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/**
+ *	=Header
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-header {
+  text-align: center;
+  font-weight: bold;
+  padding: 13px 0 13px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.dropdown-title {
+  color: inherit;
+  margin: 0 44px;
+}
+/**
+ *	=Buttons
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-back,
+.infotableSelect .dropdown-close {
+  background: #ffffff;
+  color: #333333;
+  text-decoration: none;
+  top: 1px;
+  padding: 13px;
+}
+.infotableSelect .dropdown-back:hover,
+.infotableSelect .dropdown-close:hover {
+  background: #f2f2f2;
+  color: #262626;
+  text-decoration: none;
+}
+.infotableSelect .dropdown-back .dropdown-text,
+.infotableSelect .dropdown-close .dropdown-text {
+  display: none;
+}
+.infotableSelect .dropdown-back {
+  left: 0;
+}
+.infotableSelect .dropdown-close {
+  right: 0;
+}
+/**
+ *	=Labels
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  color: #aaaaaa;
+  padding: 5px 15px;
+  margin: 10px 0 0;
+}
+.infotableSelect .dropdown-label:first-child {
+  margin-top: 5px;
+}
+/**
+ *	=Divider
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-divider {
+  border-bottom: 1px solid #e0e0e0;
+  margin: 5px 0;
+}
+.infotableSelect .dropdown-divider:first-child,
+.infotableSelect .dropdown-divider:last-child {
+  display: none;
+}
+.infotableSelect .dropdown-divider:first-child + .dropdown-label {
+  margin-top: 5px;
+}
+/**
+ *
+ *	Item styles
+ *
+ *	================================================================
+ *
+ *	@since			1.4.0
+ *
+ */
+/**
+ *	=Links
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-item {
+  border-bottom: 1px solid #D6DDE6;
+}
+.infotableSelect .dropdown-item:last-child {
+  margin-bottom: 0;
+  border:none;
+}
+/**
+ *	=Links
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-link {
+  background: #ffffff;
+  display: block;
+  text-decoration: none;
+  color: #172430;
+  font: 12px/15px "LatoWeb";
+  outline: medium none;
+  padding: 13px 12px;
+}
+.infotableSelect .dropdown-link:hover {
+  background: #2E74C6;
+  color: #fff !important;
+  text-decoration: none;
+}
+.infotableSelect .dropdown-link .dropdown-icon {
+  float: right;
+  margin-left: 7.5px;
+}
+.infotableSelect .dropdown-focus .dropdown-link {
+  background: #eeeeee;
+  color: #161616;
+}
+.infotableSelect .dropdown-selected .dropdown-link {
+  /*background: #ffffff;*/
+  text-decoration: none;
+  outline: 0;
+  color: #172430;
+}
+/**
+ *
+ *	Mobile styles
+ *
+ *	================================================================
+ *
+ *	@since			1.4.0
+ *
+ */
+/**
+ *	=Overlay
+ *	---------------------------------------------------------------- */
+.infotableSelect .dropdown-overlay {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+@media all and (min-width: 601px) {
+  .infotableSelect .dropdown-overlay {
+    display: none !important;
+  }
+}
+
+
+.infotableSelect .dropdown-toggle, .infotableSelect .dropdown-title {
+  color:#000;
+}
+
+.infotableSelect .dropdown-header {
+  background: #fff;
+}
