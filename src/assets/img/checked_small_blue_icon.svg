@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="7px" viewBox="0 0 9 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="grid-/-payment-row-second-edit-v2" transform="translate(-1032.000000, -25.000000)" fill="#2E74C6">
+            <g id="row" transform="translate(16.000000, 20.000000)">
+                <g id="price-edit" transform="translate(891.000000, 0.000000)">
+                    <g id="Group" transform="translate(125.000000, 5.000000)">
+                        <path d="M0,3.605 C0,3.535 0.0346153846,3.43 0.103846154,3.36 L0.588461538,2.87 C0.726923077,2.73 0.934615385,2.73 1.07307692,2.87 L1.10769231,2.905 L3.01153846,4.97 C3.08076923,5.04 3.18461538,5.04 3.25384615,4.97 L7.89230769,0.105 L7.92692308,0.105 C8.06538462,-0.035 8.27307692,-0.035 8.41153846,0.105 L8.89615385,0.595 C9.03461538,0.735 9.03461538,0.945 8.89615385,1.085 L3.35769231,6.895 C3.28846154,6.965 3.21923077,7 3.11538462,7 C3.01153846,7 2.94230769,6.965 2.87307692,6.895 L0.173076923,3.955 L0.103846154,3.85 C0.0346153846,3.78 0,3.675 0,3.605 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

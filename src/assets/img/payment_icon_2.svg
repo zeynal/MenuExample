@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="65px" viewBox="0 0 72 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>payment_icon_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="payment_icon_2" transform="translate(1.000000, 1.000000)" stroke="#114278" stroke-width="2.225">
+            <path d="M16.585,8.905 C22.155,3.479 29.768,0.136 38.16,0.137 C55.241,0.137 69.088,13.984 69.088,31.065 C69.088,48.147 55.241,61.995 38.16,61.995 C28.959,61.995 20.699,57.977 15.033,51.6" id="Shape"></path>
+            <g id="Group" transform="translate(0.000000, 13.000000)">
+                <rect id="Rectangle-path" x="0.487" y="0.796" width="25.778" height="33.64"></rect>
+                <polyline id="Shape" points="17.925 13.795 17.925 17.618 8.634 17.618 8.634 7.507 16.448 7.507"></polyline>
+                <polyline id="Shape" points="12.072 11.491 14.221 14.269 18.896 8.712"></polyline>
+                <path d="M8.634,24.886 L17.809,24.886" id="Shape"></path>
+                <path d="M4.902,28.558 L21.574,28.558" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

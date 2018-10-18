@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="79px" height="66px" viewBox="0 0 79 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>payment_icon_5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="payment_icon_5" transform="translate(1.000000, 2.000000)" stroke="#114278" stroke-width="2.2278">
+            <path d="M24.029,8.332 C29.55,3.216 36.943,0.089 45.068,0.089 C62.172,0.089 76.035,13.953 76.035,31.057 C76.035,48.161 62.172,62.025 45.068,62.025 C35.976,62.025 27.802,58.11 22.136,51.874" id="Shape"></path>
+            <g id="Group" transform="translate(0.000000, 12.000000)">
+                <path d="M19.457,21.407 L19.457,34.02 C19.457,35.815 18,37.273 16.205,37.273 C14.406,37.273 12.951,35.815 12.951,34.02" id="Shape"></path>
+                <path d="M25.439,21.01 C26.982,19.649 29.007,18.821 31.224,18.821 C33.617,18.821 35.785,19.782 37.365,21.339 L37.365,21.331 C37.365,11.207 29.156,3 19.033,3 C8.91,3 0.701,11.207 0.701,21.331 L0.838,21.01 C2.383,19.649 4.408,18.821 6.623,18.821 C9.018,18.821 11.185,19.782 12.762,21.339" id="Shape"></path>
+                <path d="M19.033,3 L19.033,0.239" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

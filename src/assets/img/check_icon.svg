@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="8px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checkbox-/-active" transform="translate(-3.000000, -5.000000)" fill="#2E74C6">
+            <g id="Group">
+                <g transform="translate(3.000000, 5.000000)">
+                    <path d="M0.115384615,4.4 C0.0384615385,4.32 0,4.2 0,4.12 C0,4.04 0.0384615385,3.92 0.115384615,3.84 L0.653846154,3.28 C0.807692308,3.12 1.03846154,3.12 1.19230769,3.28 L1.23076923,3.32 L3.34615385,5.68 C3.42307692,5.76 3.53846154,5.76 3.61538462,5.68 L8.76923077,0.12 L8.80769231,0.12 L8.80769231,0.12 C8.96153846,-0.04 9.19230769,-0.04 9.34615385,0.12 L9.88461538,0.68 C10.0384615,0.84 10.0384615,1.08 9.88461538,1.24 L9.88461538,1.24 L3.73076923,7.88 C3.65384615,7.96 3.57692308,8 3.46153846,8 C3.34615385,8 3.26923077,7.96 3.19230769,7.88 L0.192307692,4.52 L0.115384615,4.4 L0.115384615,4.4 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

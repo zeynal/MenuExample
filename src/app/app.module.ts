@@ -1,13 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HeaderModule } from './pages/header/header.module';
+import { FooterModule } from './pages/footer/footer.module';
 import { RouterModule, Routes } from '@angular/router';
-
+import { HeaderComponent } from './pages/header/header.component';
 import { AppComponent } from './app.component';
 
-const appRoutes: Routes = [
-  {path: '', component: AppComponent},
-];
 
 @NgModule({
   declarations: [
@@ -16,9 +14,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HeaderModule,
-    RouterModule.forRoot(
-      appRoutes
-    )
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

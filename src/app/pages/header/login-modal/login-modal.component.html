@@ -1,0 +1,123 @@
+<div class="login_modal">
+  <div>
+     <div class="login_side">
+        <h2>Please Login</h2>
+        <div class="tabs">
+           <ul>
+              <li><a href="#" class="active"> Registration code</a></li>
+              <li><a href="#"> Mobile phone</a></li>
+              <li><a href="#"> E-mail</a></li>
+              <li><a href="#"> Asan Signature</a></li>
+              <li><a href="#"> e-Signature</a></li>
+           </ul>
+        </div>
+        <div class="forms">
+           <div class="swipe">
+              <div>
+                 <form action="/GPEWebPortal/Registered/Login" method="post">
+                    <input type="hidden" name="viewID" value="viewID1539802995891">
+                    <input class="hidden" type="checkbox" name="byLoginId" checked="checked">
+                    <ul>
+                       <li>
+                          <span>Registration code<em></em></span>
+                          <input type="number" data-required="1" name="loginId">
+                       </li>
+                       <li>
+                          <span>Password<em></em></span>
+                          <input type="password" data-required="1" name="password">
+                       </li>
+                       <li>
+                          <button class="submit" type="button">Login</button> 
+                       </li>
+                    </ul>
+                 </form>
+              </div>
+              <div>
+                 <form action="/GPEWebPortal/Registered/Login" method="post">
+                    <input type="hidden" name="viewID" value="viewID1539802995891">
+                    <input class="hidden" type="checkbox" name="byMobile" checked="checked">
+                    <ul>
+                       <li>
+                          <span>Mobile phone<em></em></span>
+                          <input type="tel" name="mobilePhoneNumber" value="+994" class="phone" data-check="mobilePhone" data-length="12" data-required="1">
+                       </li>
+                       <li>
+                          <span>Password<em></em></span>
+                          <input type="password" data-required="1" name="password">
+                       </li>
+                       <li>
+                          <button class="submit" type="submit">Login</button> 
+                       </li>
+                    </ul>
+                 </form>
+              </div>
+              <div>
+                 <form action="/GPEWebPortal/Registered/Login" method="post">
+                    <input type="hidden" name="viewID" value="viewID1539802995891">
+                    <input class="hidden" type="checkbox" name="byEmail" checked="checked">
+                    <ul>
+                       <li>
+                          <span>Email<em></em></span>
+                          <input type="email" data-required="1" data-check="email" name="email">
+                       </li>
+                       <li>
+                          <span>Password<em></em></span>
+                          <input type="password" data-required="1" name="password">
+                       </li>
+                       <li>
+                          <button class="submit" type="button">Login</button> 
+                       </li>
+                    </ul>
+                 </form>
+              </div>
+              <div>
+                 <form action="/GPEWebPortal/Registered/Login" method="post">
+                    <input type="hidden" name="viewID" value="viewID1539802995891">
+                    <input class="hidden" type="checkbox" name="byASANSignature" checked="checked">
+                    <ul>
+                       <li>
+                          <span>Mobile phone (e.g. +994501234567)<em></em></span>
+                          <input type="tel" name="mobilePhoneNumber" data-required="1" data-check="mobilePhone" data-length="12">
+                       </li>
+                       <li>
+                          <span>Asan İmza İstifadəçi ID-si (məs. 000123) <em></em></span>
+                          <input type="number" name="ASANuserId" data-required="1">
+                       </li>
+                       <li>
+                          <button class="submit" type="submit">Login</button> 
+                          <p></p>
+                       </li>
+                    </ul>
+                 </form>
+              </div>
+              <div>
+                 <form action="https://gpp.az/GPEWebPortal/Registered/ESignatureLogin" method="post">
+                    <input type="hidden" name="viewID" value="viewID1539802995891">
+                    <input class="hidden" type="checkbox" name="byeSignature" checked="checked">
+                    <ul>
+                       <li>
+                          <button type="submit">Login</button>
+                       </li>
+                    </ul>
+                 </form>
+              </div>
+           </div>
+           <div class="links">              <!-- <p><a href="#" class="kod_restore">Qeydiyyat kodunu unutmusuz?</a></p>  -->
+              <p><a href="#" class="pass_restore">Forgot password?</a></p>
+              <p class="hidden"><a href="#" class="pass_restore_choice">pass_restore_choice</a></p>
+              <p class="hidden"><a href="#" class="pass_restore_otp">restore_pass_otp</a></p>
+              <p class="hidden"><a href="#" class="loginTypeScroll">loginTypeScroll</a></p>
+              <p class="hidden"><a href="#" class="asan_verification_code_link">asan_verification_code_link</a></p>
+           </div>
+        </div>
+     </div>
+     <div class="register_side">
+        <h2>Registration</h2>
+        <p>By registering, you can collect your identification codes for your organizations in your personal cabinet. This will allow you to get information about your debts , make payments, and view payment histories in a single location.</p>
+        <div class="link"> 
+           <a class="link" commandname="Registration/Open" href="#">Sign up</a>
+        </div>
+     </div>
+  </div>
+  <a href="#" class="close"></a>
+</div>

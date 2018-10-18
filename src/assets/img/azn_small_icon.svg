@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>manat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
+        <g id="header-/-unregistered" transform="translate(-841.000000, -40.000000)" fill="#00427A">
+            <g id="right">
+                <g transform="translate(841.000000, 35.000000)">
+                    <g id="currency">
+                        <g id="manat" transform="translate(0.000000, 5.000000)">
+                            <g id="Layer_1">
+                                <polygon id="path5739" points="6.22222222 9.42857143 6.54700855 0.374369748 7.64102564 0 7.77777778 8.70756303"></polygon>
+                                <path d="M0,10.8979988 L1.40473506,10.9562852 C1.43630214,4.60306642 5.12965051,2.50475564 6.94475761,2.44646923 C11.8534386,2.59218525 12.421646,8.39168312 12.5952649,10.9417136 L14,11 C13.8895152,4.87992688 10.259301,1.51388666 7.27621195,1.57217307 C2.19391206,1.7324607 0.25253664,6.54108958 0,10.8979988 L0,10.8979988 Z" id="path5764"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
