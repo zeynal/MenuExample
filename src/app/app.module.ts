@@ -2,8 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HeaderModule } from './pages/header/header.module';
 import { FooterModule } from './pages/footer/footer.module';
-import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from './pages/header/header.component';
+import { ContainerModule } from './pages/container/container.module';
 import { AppComponent } from './app.component';
 
 
@@ -14,6 +13,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     HeaderModule,
+    ContainerModule,
     FooterModule
   ],
   providers: [],

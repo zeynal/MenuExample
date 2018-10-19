@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { HeaderComponent } from './header.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { LanguageComponent } from './language/language.component';
 import { AsideBlockComponent } from './aside/aside-block.component';
 import { LoginModalComponent } from './login-modal/login-modal.component';
+import { AuthenticationService } from '../../services/login/authentication.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormBuilder } from '@angular/forms';
 
 
 @NgModule({
@@ -17,11 +22,17 @@ import { LoginModalComponent } from './login-modal/login-modal.component';
     LoginModalComponent
   ],
   imports: [
-    CommonModule,
+    BrowserModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],exports: [
     HeaderComponent
   ],
-  providers: [],
+  providers: [
+    AuthenticationService,
+    FormBuilder
+  ],
   bootstrap: [HeaderComponent]
 })
 

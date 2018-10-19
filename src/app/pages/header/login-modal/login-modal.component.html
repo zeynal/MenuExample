@@ -14,23 +14,22 @@
         <div class="forms">
            <div class="swipe">
               <div>
-                 <form action="/GPEWebPortal/Registered/Login" method="post">
-                    <input type="hidden" name="viewID" value="viewID1539802995891">
+                <form [formGroup]="loginForm" (submit)="onLoginForCode()">
                     <input class="hidden" type="checkbox" name="byLoginId" checked="checked">
                     <ul>
                        <li>
                           <span>Registration code<em></em></span>
-                          <input type="number" data-required="1" name="loginId">
+                          <input type="number" formControlName="loginId">
                        </li>
                        <li>
                           <span>Password<em></em></span>
-                          <input type="password" data-required="1" name="password">
+                          <input type="password" formControlName="password">
                        </li>
                        <li>
-                          <button class="submit" type="button">Login</button> 
+                          <button class="submit" type="submit">Login</button> 
                        </li>
                     </ul>
-                 </form>
+                </form>
               </div>
               <div>
                  <form action="/GPEWebPortal/Registered/Login" method="post">
